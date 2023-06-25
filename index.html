@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HirePro - Online Recruitment Solution</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body style="background-color: #ebebf0">
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="#"
+            ><img
+              width="50%"
+              src="https://qph.cf2.quoracdn.net/main-qimg-987641c860bc72439382b507c6b6baa2"
+              alt=""
+          /></a>
+        </div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name"
+              ><img
+                width="50%"
+                src="https://qph.cf2.quoracdn.net/main-qimg-987641c860bc72439382b507c6b6baa2"
+                alt=""
+            /></span>
+            <i class="bx bx-x"></i>
+          </div>
+          <ul class="links">
+            <li><a href="#">HOME</a></li>
+            <li>
+              <a href="#">HIRING</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#">React Developer</a></li>
+                <li><a href="#">Node Developer</a></li>
+                <li><a href="#">BackEnd Developer</a></li>
+                <li class="more">
+                  <span
+                    ><a href="#">More</a>
+                    <i class="bx bxs-chevron-right arrow more-arrow"></i>
+                  </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Web Developer</a></li>
+                    <li><a href="#">Mobile App Developer</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="SignUp.html" id="log">LOGIN</a></li>
+            <li style="color: white" id="sibut"></li>
+            <li style="color: white" id="out"></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="animated-title">
+      <div class="text-top">
+        <div>
+          <span>Welcome</span>
+          <span>To HirePro,</span>
+        </div>
+      </div>
+      <div class="text-bottom">
+        <div style="font-size: 50px; color: red">
+          The Ultimate Online Recruitment Solution.
+        </div>
+      </div>
+    </div>
+
+    <hr
+      style="
+        height: 2px;
+        background-color: black;
+        width: 90%;
+        margin: auto;
+        color: red;
+      "
+    />
+
+    <h1
+      class="animated-text"
+      style="
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        text-align: center;
+        font-size: 50px;
+      "
+    >
+      Key Features
+    </h1>
+    <br />
+    <div id="fbuttons">
+      <div>
+        <div>
+          <img
+            width="50%"
+            style="border-radius: 5%"
+            src="https://cdn-icons-png.flaticon.com/512/4470/4470321.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <button class="open-modal" data-modal="modal-1">
+            Smart Candidate
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img
+            width="50%"
+            style="border-radius: 5%"
+            src="https://cdn-icons-png.flaticon.com/512/2936/2936630.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <button class="open-modal" data-modal="modal-2">
+            Customizable job
+          </button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img
+            width="50%"
+            style="border-radius: 5%"
+            src="https://cdn-icons-png.flaticon.com/512/6291/6291995.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <button class="open-modal" data-modal="modal-3">Screening</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Smart Candidate Search
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Efficiently match job requirements with the most suitable candidates
+          using advanced AI algorithms.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Customizable job listings
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Create eye-catching job postings that highlight your company culture,
+          values, and unique selling points.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Automated Screening
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Save time by automatically filtering unqualified candidates and
+          focusing on the most promising ones.
+        </p>
+      </div>
+    </div>
+
+    <div id="second">
+      <h1
+        class="animated-text"
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          text-align: center;
+          font-size: 50px;
+        "
+      >
+        Benefits for Hiring
+      </h1>
+      <div id="fbuttons">
+        <div>
+          <div>
+            <img
+              width="50%"
+              style="border-radius: 5%"
+              src="https://cdn-icons-png.flaticon.com/512/1451/1451868.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <button class="open-modal" data-modal="modal-4">Time-saving</button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              width="50%"
+              style="border-radius: 5%"
+              src="https://cdn-icons-png.flaticon.com/512/4752/4752567.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <button class="open-modal" data-modal="modal-5">
+              Quality Talent
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+              width="50%"
+              style="border-radius: 5%"
+              src="https://www.pngmart.com/files/7/Money-PNG-Photos.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <button class="open-modal" data-modal="modal-3">
+              Cost-effective
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-4" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Time-saving
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Automate manual tasks and focus on strategic recruitment decisions,
+          reducing time-to-hire.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-5" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Quality Talent Acquisition
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Leverage AI-powered candidate matching and screening to find top
+          talent that aligns with your organization's goals.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal-6" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Cost-effective
+        </h2>
+        <br />
+        <p
+          style="
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Save on recruitment agency fees and advertising costs with an
+          affordable and scalable solution.
+        </p>
+      </div>
+    </div>
+    <br />
+    <hr style="color: red" />
+
+    <div id="cta">
+      <h2
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          margin-bottom: 15px;
+        "
+      >
+        Try HirePro Today and Transform Your Recruitment Process!
+      </h2>
+      <p
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          margin-bottom: 15px;
+        "
+      >
+        Sign up for a free trial of HirePro and experience the future of online
+        recruitment.
+      </p>
+      <a style="margin-bottom: 30px" href="#" class="cta-button"
+        >Start Your Free Trial</a
+      >
+
+      <p
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+        "
+      >
+        &copy; 2023 HirePro. All rights reserved.
+      </p>
+    </div>
+
+    <script>
+      let storedUserData = localStorage.getItem("userData");
+      var signupButton = document.getElementById("sibut");
+      let log = document.getElementById("log");
+      let out = document.getElementById("out");
+
+      if (storedUserData) {
+        const userData = JSON.parse(storedUserData);
+        signupButton.textContent = "Welcome" + " " + userData.name;
+        log.style.display = "none";
+        out.style.display = "inline-block";
+        out.textContent = "LOGOUT";
+      }
+
+      out.addEventListener("click", function () {
+        // Clear user data from local storage
+        localStorage.removeItem("userData");
+        log.style.display = "inline-block"; // Show signup button
+        signupButton.style.display = "none";
+        out.style.display = "none"; // Hide logout button
+      });
+      var modalButtons = document.querySelectorAll(".open-modal");
+      modalButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          var modalId = button.dataset.modal;
+          var modal = document.getElementById(modalId);
+          modal.style.display = "block";
+        });
+      });
+
+      // Close modal
+      var closeButtons = document.querySelectorAll(".close");
+      closeButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          var modal = button.closest(".modal");
+          modal.style.display = "none";
+        });
+      });
+
+      // Close modal when clicking outside the content
+      window.addEventListener("click", function (event) {
+        var modals = document.getElementsByClassName("modal");
+        Array.from(modals).forEach(function (modal) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        });
+      });
+
+      window.addEventListener("scroll", function () {
+        var elements = document.querySelectorAll("#fbuttons");
+
+        elements.forEach(function (element) {
+          var position = element.getBoundingClientRect().top;
+          var screenHeight = window.innerHeight;
+
+          if (position < screenHeight) {
+            element.classList.add("animate");
+          }
+        });
+      });
+
+      // search-box open close js code
+      let navbar = document.querySelector(".navbar");
+      let searchBox = document.querySelector(".search-box .bx-search");
+      // let searchBoxCancel = document.querySelector(".search-box .bx-x");
+      searchBox.addEventListener("click", () => {
+        navbar.classList.toggle("showInput");
+        if (navbar.classList.contains("showInput")) {
+          searchBox.classList.replace("bx-search", "bx-x");
+        } else {
+          searchBox.classList.replace("bx-x", "bx-search");
+        }
+      });
+      // sidebar open close js code
+      let navLinks = document.querySelector(".nav-links");
+      let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+      let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+      menuOpenBtn.onclick = function () {
+        navLinks.style.left = "0";
+      };
+      menuCloseBtn.onclick = function () {
+        navLinks.style.left = "-100%";
+      };
+      // sidebar submenu open close js code
+      let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+      htmlcssArrow.onclick = function () {
+        navLinks.classList.toggle("show1");
+      };
+      let moreArrow = document.querySelector(".more-arrow");
+      moreArrow.onclick = function () {
+        navLinks.classList.toggle("show2");
+      };
+      let jsArrow = document.querySelector(".js-arrow");
+      jsArrow.onclick = function () {
+        navLinks.classList.toggle("show3");
+      };
+    </script>
+  </body>
+</html>
